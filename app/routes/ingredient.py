@@ -17,3 +17,8 @@ async def get_ingredient(ingredient_id):
 async def add_ingredient():
     pass
 
+# TODO: update ingredient
+@router.put("/ingredient/{ingredient_id}")
+async def update_ingredient(ingredient_id):
+    pass
+
