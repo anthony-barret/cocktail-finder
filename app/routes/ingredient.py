@@ -22,3 +22,7 @@ async def add_ingredient():
 async def update_ingredient(ingredient_id):
     pass
 
+# TODO: delete ingredient
+@router.delete("/ingredient/{ingredient_id}")
+async def delete_ingredient(ingredient_id):
+    pass
