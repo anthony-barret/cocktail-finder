@@ -12,3 +12,7 @@ async def list_glasses():
 async def add_glass():
     pass
 
+# TODO: delete glassware
+@router.delete("/glass/{glass_id}")
+async def delete_glass(glass_id):
+    pass
