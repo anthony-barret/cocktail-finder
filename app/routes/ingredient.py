@@ -12,3 +12,8 @@ async def list_ingredients():
 async def get_ingredient(ingredient_id):
     pass
 
+# TODO: add ingredient
+@router.post("/ingredient")
+async def add_ingredient():
+    pass
+
